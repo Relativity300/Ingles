@@ -1,0 +1,96 @@
+:root{
+    --modulo1: rgb(207, 174, 233);
+    --CusivaTitulo: 'Dancing Script', cursive ;
+}
+/* Fondo */
+body{
+    background-image: url(../IMG/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: 101.5vw;
+    /* background-position-y:.1em ; */
+    background-attachment: fixed;
+}
+/* titulo */
+.tituliNodulo{
+    text-align: center;
+    font-family:var(--CusivaTitulo);
+    font-size: 6.7em;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px rgb(255, 0, 0);
+
+}
+
+
+.DIVmodulo{
+    display: flex;
+    place-content: center;
+    /* grid-template-columns: 20%  20% 20% 20%; */
+    /* justify-content: center; */
+
+}
+
+/* cotenedor de modulo */
+.DIV-divmodulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: rgb(118, 209, 154);
+    /* background-image: url(../IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:110%; */
+
+    max-width: 90%;
+    padding: 0.5em;
+    border-radius: 3em;
+}
+
+/* estilo de modulo */
+.Modulo{
+    background-color:var(--modulo1);
+    width: 10em;
+    height: 10em;
+    border-radius: 35%;
+    margin: .5em;
+    margin-bottom: 2em;
+    /* border: solid 2px  rgb(0, 0, 0); */
+    box-shadow: 0.5px 6px 10px .1px   rgb(0, 0, 0);
+    
+}
+
+.Modulo:hover{
+    background-color: rgb(187, 145, 220);
+    width: 10.5em;
+    height: 10.5em;
+    border-radius: 40%;
+    box-shadow: 0.5px 8px 8px 3px   rgb(0, 0, 0);
+}
+.Modulo:active{
+    background-color: rgb(174, 126, 210);
+    width: 10.8em;
+    height: 10.8em;
+    border-radius: 45%;
+    box-shadow: 0.5px 8px 10px 5px   rgb(0, 0, 0);
+}
+
+/* centra el titulo del modulo */
+.Modulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 7em; */
+}
+
+/* titulo del modulo */
+.nombreModulo{
+    text-decoration: none;
+    font-size: 3em;
+    text-align: center;
+    font-family:var(--CusivaTitulo);
+    color: #000;
+}
+
+a:link {
+    text-decoration: none;
+  }
